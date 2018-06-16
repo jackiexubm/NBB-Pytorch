@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[dev-packages]
+
+[requires]
+python_version = "3.5"
+
+[packages]
+numpy = "*"
+"adf74d9" = {file = "http://download.pytorch.org/whl/cu90/torch-0.4.0-cp35-cp35m-linux_x86_64.whl"}
+matplotlib = "*"
+torchvision = "*"
+jupyter = "*"
